@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace SOL
 {
-    public interface IStateRegistry
+    public interface IStateRegistry<TState>
     {
-
+        bool RegisterState(TState state);
+        bool UnregisterState(TState state);
+        void ClearRegistry();
     }
 }

@@ -9,8 +9,9 @@ namespace SOL
     public enum ObjectState
     {
         Inactive = 0,
-        Active = 1,
-        Decommissing = 2,
+        Initializing = 1,
+        Active = 2,
+        Decommissing = 3,
         Decommissioned = 4
     }
 }

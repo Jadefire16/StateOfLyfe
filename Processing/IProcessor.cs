@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace SOL.Processing
 {
-    public interface IProcessor
+    public interface IProcessor<TState>
     {
+
     }
 }

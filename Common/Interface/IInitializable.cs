@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace SOL
 {
-    public class StateRegistry
+    public interface IInitializable
     {
+        void Initialize();
     }
 }
